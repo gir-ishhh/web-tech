@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Your Shopping Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Tech Store</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2>Your Cart 🛒</h2>
+        <div id="cart-items-container">
+        </div>
+        <h3 class="total">Total: ₹<span id="cart-total">0.00</span></h3>
+
+        <div class="checkout-button-container">
+            <a href="checkout.html" class="cta-button">Proceed to Checkout</a>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 Techify. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
